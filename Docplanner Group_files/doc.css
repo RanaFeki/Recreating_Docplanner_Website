@@ -1,0 +1,41 @@
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width:100%;
+}
+
+#icon {
+    height: 33px;
+    width: 268px;
+}
+.menu {
+    display: flex;
+}
+.align ,a {
+
+    margin-right: 10px;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+     
+}
+
+a:hover,.align:hover{
+    color:aqua;
+}
+
+.select2 {
+    display: none;
+
+}
+.select2{
+position: absolute;
+}
+#d:hover .select2{display:block;}
+
+ul{
+    list-style:none;;
+}
